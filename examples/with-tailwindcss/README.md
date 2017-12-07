@@ -6,6 +6,17 @@ This is an example of how you can include a global stylesheet in a next.js webap
 
 ## How to use
 
+### Using `create-next-app`
+
+Download [`create-next-app`](https://github.com/segmentio/create-next-app) to bootstrap the example:
+
+```
+npm i -g create-next-app
+create-next-app --example with-tailwindcss with-tailwindcss-app
+```
+
+### Download manually
+
 If you like [create-next-app](https://github.com/segmentio/create-next-app) and/or [yarn](https://yarnpkg.com/en/docs/cli/create) simply run:
 
 ```bash
@@ -18,7 +29,7 @@ cd my-app
 Download the example [or clone the repo](https://github.com/zeit/next.js):
 
 ```bash
-curl https://codeload.github.com/zeit/next.js/tar.gz/master | tar -xz --strip=2 next.js-master/examples/with-tailwindcss
+curl https://codeload.github.com/zeit/next.js/tar.gz/canary | tar -xz --strip=2 next.js-canary/examples/with-tailwindcss
 cd with-tailwindcss
 ```
 
